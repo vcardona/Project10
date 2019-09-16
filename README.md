@@ -7,3 +7,5 @@ En este proyecto se aprendió sobre:
 * UUID
 * NSObject subclasses
 * fatalError()
+
+![](Project10.gif)
