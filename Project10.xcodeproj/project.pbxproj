@@ -12,6 +12,8 @@
 		FE2C71AC232F4B280087EBAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2C71AA232F4B280087EBAD /* Main.storyboard */; };
 		FE2C71AE232F4B2A0087EBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2C71AD232F4B2A0087EBAD /* Assets.xcassets */; };
 		FE2C71B1232F4B2A0087EBAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2C71AF232F4B2A0087EBAD /* LaunchScreen.storyboard */; };
+		FE2C71B9232F5C150087EBAD /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C71B8232F5C150087EBAD /* PersonCell.swift */; };
+		FE2C71BB232FDE980087EBAD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C71BA232FDE980087EBAD /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FE2C71AD232F4B2A0087EBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2C71B0232F4B2A0087EBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2C71B2232F4B2A0087EBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2C71B8232F5C150087EBAD /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		FE2C71BA232FDE980087EBAD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				FE2C71A6232F4B280087EBAD /* AppDelegate.swift */,
 				FE2C71A8232F4B280087EBAD /* ViewController.swift */,
+				FE2C71BA232FDE980087EBAD /* Person.swift */,
 				FE2C71AA232F4B280087EBAD /* Main.storyboard */,
+				FE2C71B8232F5C150087EBAD /* PersonCell.swift */,
 				FE2C71AD232F4B2A0087EBAD /* Assets.xcassets */,
 				FE2C71AF232F4B2A0087EBAD /* LaunchScreen.storyboard */,
 				FE2C71B2232F4B2A0087EBAD /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2C71B9232F5C150087EBAD /* PersonCell.swift in Sources */,
 				FE2C71A9232F4B280087EBAD /* ViewController.swift in Sources */,
+				FE2C71BB232FDE980087EBAD /* Person.swift in Sources */,
 				FE2C71A7232F4B280087EBAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
